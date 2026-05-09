@@ -1,0 +1,24 @@
+{
+  "name": "lpagent-sidetrack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend API integration demo for LPAgent.io Superteam sidetrack.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "demo": "node scripts/demo-plan.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "lpagent",
+    "solana",
+    "meteora",
+    "liquidity",
+    "backend"
+  ],
+  "license": "MIT"
+}

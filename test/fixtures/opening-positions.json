@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "count": 3,
+  "data": [
+    {
+      "id": "position-open-in-range",
+      "owner": "7KHx2Uc5qsqz652eXbu8Qtabi5KLxWJLgxFzcaBzP32i",
+      "pool": "2DeF1QHAQMpNXCGjcsm2pWw1V4KknGtwd2wEh2fTriKC",
+      "pairName": "GP/SOL",
+      "currentValue": "1120.55",
+      "inRange": true,
+      "pnl": { "percent": 4.2 },
+      "unCollectedFee": 8.12,
+      "protocol": "meteora"
+    },
+    {
+      "id": "position-out-of-range",
+      "owner": "7KHx2Uc5qsqz652eXbu8Qtabi5KLxWJLgxFzcaBzP32i",
+      "pool": "9sQeV3xWm5nQx4iB1d8E2uLpa9gRk2zG2e8G6kZZZZZZ",
+      "pairName": "SOL/USDC",
+      "currentValue": "420.01",
+      "inRange": false,
+      "pnl": { "percent": 2.5 },
+      "unCollectedFee": 1.33,
+      "protocol": "meteora"
+    },
+    {
+      "id": "position-stop-loss",
+      "owner": "7KHx2Uc5qsqz652eXbu8Qtabi5KLxWJLgxFzcaBzP32i",
+      "pool": "7qAbc3xWm5nQx4iB1d8E2uLpa9gRk2zG2e8G6kYYYYYY",
+      "pairName": "MEME/SOL",
+      "currentValue": "88.2",
+      "inRange": false,
+      "pnl": { "percent": -31.7 },
+      "unCollectedFee": 0.02,
+      "protocol": "meteora"
+    }
+  ]
+}
